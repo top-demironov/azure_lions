@@ -350,7 +350,19 @@ def task(request, task_id):
   }
 </style>
 
-<div class="buttons">
-  <a class="primary" href="https://forms.gle/224CibgUdUJPbi6u9">Мне понравилось</a>
-  <a class="secondary" href="https://forms.gle/224CibgUdUJPbi6u9">Мне не понравилось</a>
+<div style="display: flex; padding-bottom: 40px; gap: 10px;">
+  <a style="
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background: #0d6efd;" href="https://forms.gle/224CibgUdUJPbi6u9">Мне понравилось</a>
+  <a style="
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background: #6c757d;" href="https://forms.gle/224CibgUdUJPbi6u9">Мне не понравилось</a>
 </div>
